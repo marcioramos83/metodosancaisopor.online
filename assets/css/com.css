@@ -272,3 +272,6 @@ tr {
       font-style: italic;
       text-shadow: #000000 0px 1px 0px;
     }
+    .redtext {
+      color: red;
+    }
