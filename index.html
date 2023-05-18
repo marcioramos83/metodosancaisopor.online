@@ -15,6 +15,7 @@
     rel="stylesheet" />
 
   <link rel="stylesheet" href="./assets/css/com.css" />
+  <link rel="stylesheet" href="assets/css/all.min.css">
 
   <!-- Título da Página -->
   <title>Sanca de Isopor</title>
@@ -22,57 +23,56 @@
   <style type="text/css">
     header {
       color: white;
-      background-image: url("assets/img/bg.jpeg");
-      background-color: rgb(0, 0, 0);
+      background-color: rgba(11, 4, 90, 0.973);
       background-position: center;
       background-size: cover;
       background-attachment: fixed;
       background-blend-mode: darken;
     }
   </style>
+  <script type="text/javascript" src="assets/js/com.js"></script>
 
-<!-- Meta Pixel Code -->
-<script>
+  <!-- Meta Pixel Code -->
+  <script>
     ! function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
     }(window, document, 'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
+      'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '262318582851808');
     fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=262318582851808&ev=PageView&noscript=1" /></noscript>
-<!-- End Meta Pixel Code -->
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=262318582851808&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
 </head>
 
 <body>
-  <header class="py-4">
+
+  <header>
+    <div class="d-flex justify-content-center">
+      <p class="headline"><span id="number"></span> pessoas pessoas assistindo está apresentação</p>
+    </div>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
+        <div class="col-lg-9 text-center">
           <!-- Imagem Ultrasecreto -->
 
           <!-- Headline -->
-          <h2 class="my-4">
-            Aprenda uma nova habilidade e transforme sua vida como o Método Sanca de Isopor diretamente da sua residência.</b>
-          </h2>
-          <span id="number"></span> pessoas estão vendo esse vídeo agora!
-          <br>
-          <br>
+
           <script>
             function add() {
               number += Math.floor(Math.random() * 6 + 1);
@@ -81,37 +81,55 @@
             }
 
             function generate() {
-              number = Math.floor(Math.random() * 1143) + 1000;
+              number = Math.floor(Math.random() * 12) + 300;
               document.getElementById("number").innerHTML = number;
               add();
             }
             generate();
           </script>
+          <h2 class="text1">
+            Aprenda uma nova habilidade e transforme sua vida como o <span style="color: red">Método Sanca de
+              Isopor</span> diretamente da sua residência.
+          </h2>
 
           <!-- VSL -->
-          <div id="vid_645c6ab0b0ab0b000926787a" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_645c6ab0b0ab0b000926787a" src="https://images.converteai.net/f2042cda-d336-44a3-9877-ea0dae34f0ae/players/645c6ab0b0ab0b000926787a/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_645c6ab0b0ab0b000926787a" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_645c6ab0b0ab0b000926787a">var s=document.createElement("script");s.src="https://scripts.converteai.net/f2042cda-d336-44a3-9877-ea0dae34f0ae/players/645c6ab0b0ab0b000926787a/player.js",s.async=!0,document.head.appendChild(s);</script>          
+          <div id="vid_645c6ab0b0ab0b000926787a"
+            style="position:relative;width:100%;padding: 56.25% 0 0; border-radius: 20px; box-shadow: 0 0 30px 20px rgb(70, 2, 126)">
+            <img id="thumb_645c6ab0b0ab0b000926787a"
+              src="https://images.converteai.net/f2042cda-d336-44a3-9877-ea0dae34f0ae/players/645c6ab0b0ab0b000926787a/thumbnail.jpg"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;border-radius: 20px">
+            <div id="backdrop_645c6ab0b0ab0b000926787a"
+              style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);border-radius: 20px">
+            </div>
+          </div>
+          <script type="text/javascript" id="scr_645c6ab0b0ab0b000926787a">
+            var s = document.createElement("script");
+            s.src =
+              "https://scripts.converteai.net/f2042cda-d336-44a3-9877-ea0dae34f0ae/players/645c6ab0b0ab0b000926787a/player.js",
+              s.async = !0, document.head.appendChild(s);
+          </script>
           <!-- Botão 1 -->
           <div id="cta1" class="mt-4 d-none">
             <a href="https://go.hotmart.com/P82488116J?ap=858b" class="a-btn" style="text-decoration: none">
-                <span class="span-btn">QUERO APRENDER E ADQUIRIR AGORA MESMO!</span>
+              <span class="span-btn">QUERO APRENDER E ADQUIRIR AGORA MESMO!</span>
               <span class="span-btn2">(atenção: faltam poucas vagas)</span>
             </a>
           </div>
+          <div>
+            <p class="p2">Este site não faz parte nem é endossado pelo Facebook.
+            </p>
+            <p style="text-align: center; font-weight: bold;">Facebook é uma marca comercial da Facebook, Inc.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <p style="text-align: center; font-weight: bold; margin-top: 30px">
-      © 2023 – Todos os direitos reservados. Este site não faz parte nem é
-      endossado pelo Facebook. Facebook é uma marca comercial da Facebook,
-      Inc.
-    </p>
   </header>
 
-  <section class="comments py-4">
+  <section class="comments py-4" style="background-color: rgba(11, 4, 90, 0.973)">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <div class="fb-comments" style="margin-top: 5px">
+          <div class="fb-comments" style="margin-top: 5px; background-color: rgb(255, 255, 255)">
             <div class="fb-comments-header">
               <span>comentários mais recentes</span>
             </div>
@@ -138,11 +156,12 @@
                   </tr>
                   <tr>
                     <td class="fb-comments-comment-actions">
-                      <like>Curtir</like>
+                      <reply>Curtir</reply>
                       ·
                       <reply>Responder</reply>
                       ·
-                      <likes>8</likes>
+                      <likes><i class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"
+                            style="color: #cc1905;"></i></i> 8 </likes>
 
                       <date>4 min</date>
                     </td>
@@ -173,12 +192,12 @@
                   </tr>
                   <tr>
                     <td class="fb-comments-comment-actions">
-                      <like>Curtir</like>
+                      <reply>Curtir</reply>
                       ·
                       <reply>Responder</reply>
                       ·
-                      <likes>9</likes>
-
+                      <likes><i class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"
+                            style="color: #cc1905;"></i></i> 9 </likes>
                       <date>5 min</date>
                     </td>
                   </tr>
@@ -206,12 +225,12 @@
                   </tr>
                   <tr>
                     <td class="fb-comments-comment-actions">
-                      <like>Curtir</like>
+                      <reply>Curtir</reply>
                       ·
                       <reply>Responder</reply>
                       ·
-                      <likes>11</likes>
-
+                      <likes><i class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"
+                            style="color: #cc1905;"></i></i> 11 </likes>
                       <date>12 min</date>
                     </td>
                   </tr>
@@ -240,12 +259,12 @@
                   </tr>
                   <tr>
                     <td class="fb-comments-comment-actions">
-                      <like>Curtir</like>
+                      <reply>Curtir</reply>
                       ·
                       <reply>Responder</reply>
                       ·
-                      <likes>15</likes>
-
+                      <likes><i class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"
+                            style="color: #cc1905;"></i></i> 15 </likes>
                       <date>19 min</date>
                     </td>
                   </tr>
@@ -276,12 +295,12 @@
                   </tr>
                   <tr>
                     <td class="fb-comments-comment-actions">
-                      <like>Curtir</like>
+                      <reply>Curtir</reply>
                       ·
                       <reply>Responder</reply>
                       ·
-                      <likes>17</likes>
-
+                      <likes><i class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"
+                            style="color: #cc1905;"></i></i> 17 </likes>
                       <date>24 min</date>
                     </td>
                   </tr>
@@ -309,12 +328,12 @@
                   </tr>
                   <tr>
                     <td class="fb-comments-comment-actions">
-                      <like>Curtir</like>
+                      <reply>Curtir</reply>
                       ·
                       <reply>Responder</reply>
                       ·
-                      <likes>18</likes>
-
+                      <likes><i class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"
+                            style="color: #cc1905;"></i></i> 18 </likes>
                       <date>26 min</date>
                     </td>
                   </tr>
@@ -344,12 +363,12 @@
                   </tr>
                   <tr>
                     <td class="fb-comments-comment-actions">
-                      <like>Curtir</like>
+                      <reply>Curtir</reply>
                       ·
                       <reply>Responder</reply>
                       ·
-                      <likes>22</likes>
-
+                      <likes><i class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"
+                            style="color: #cc1905;"></i></i> 22 </likes>
                       <date>39 min</date>
                     </td>
                   </tr>
@@ -384,12 +403,12 @@
                     </tr>
                     <tr>
                       <td class="fb-comments-comment-actions">
-                        <like>Curtir</like>
+                        <reply>Curtir</reply>
                         ·
                         <reply>Responder</reply>
                         ·
-                        <likes>41</likes>
-
+                        <likes><i class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"
+                              style="color: #cc1905;"></i></i> 41 </likes>
                         <date>1 h</date>
                       </td>
                     </tr>
@@ -420,6 +439,7 @@
 
   <footer class="bg-dark py-3 text-center">
     <div class="text-white">
+      <p class="p1">Copyright 2023 - Todos os direitos reservados ©</p>
       <a href="termos.html" class="text-white">Termos de Uso</a> |
       <a href="privacidade.html" class="text-white">Política de Privacidade</a>
     </div>
