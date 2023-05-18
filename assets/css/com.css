@@ -285,13 +285,12 @@ tr {
 
 .headline {
   text-align: center;
-  padding-top: 20px;
-  padding-block: 20px;
+  padding-block: 25px;
   font-weight:bold;
   font-size: 18px;
-  background-color: #eb0c0c;
+  background-color: #ff0000;
   width: 100%;
-  color: #000;
+  color: #000; 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
