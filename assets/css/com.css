@@ -284,17 +284,17 @@ tr {
 }
 
 .headline {
-  background-color: #f00;
   text-align: center;
-  padding-top: 20px;
-  padding-block: 20px;
+  padding-top: 5px;
+  padding-block: 5px;
   font-weight: bold;
   font-size: 20px;
-  width: -webkit-fill-available;
 }
 
 .text1 {
+  margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 28px;
 }
 
 .p1 {
@@ -305,4 +305,9 @@ tr {
   text-align: center;
   font-weight: bold;
   margin-top: 40px;
+}
+
+nav {
+  background-color: #BF0A0A;
+  color: white;
 }
