@@ -285,14 +285,16 @@ tr {
 
 .headline {
   text-align: center;
-  padding-top: 5px;
-  padding-block: 5px;
+  padding-top: 10px;
+  padding-block: 10px;
   font-weight: bold;
   font-size: 20px;
+  background-color: #BF0A0A;
+  width:100%;
 }
 
 .text1 {
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
   font-size: 28px;
 }
@@ -305,9 +307,4 @@ tr {
   text-align: center;
   font-weight: bold;
   margin-top: 40px;
-}
-
-nav {
-  background-color: #BF0A0A;
-  color: white;
 }
