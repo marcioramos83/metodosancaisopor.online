@@ -283,17 +283,6 @@ tr {
   text-shadow: #000000 0px 1px 0px;
 }
 
-.headline {
-  text-align: center;
-  padding-block: 25px;
-  font-weight:bold;
-  font-size: 18px;
-  background-color: #ff0000;
-  width: 100%;
-  color: #000; 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .text1 {
   margin-top: 10px;
   margin-bottom: 30px;
